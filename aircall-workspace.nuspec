@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
+
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>aircall-workspace</id>
+    <version>1.12.10</version>
+
+    <title>Aircall Workspace (Install) - Unofficial (Community)</title>
+
+    <authors>Aircall io., Inc</authors>
+    <owners>Equin Limited</owners>
+
+    <!-- Required for community feed -->
+    <projectUrl>https://aircall.io/download</projectUrl>
+    <docsUrl>https://support.aircall.io</docsUrl>
+
+    <!-- Aircall legal terms -->
+    <licenseUrl>https://aircall.io/legal</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+
+    <packageSourceUrl>https://github.com/equinlimited/chocolatey-aircall-workspace</packageSourceUrl>
+
+    <tags>aircall unofficial community customer-communication voip</tags>
+    <summary>Unofficial, community-maintained Chocolatey package for the Aircall Workspace desktop app (may lag official releases).</summary>
+    <description><![CDATA[
+## Unofficial / Community package (not maintained by Aircall)
+This Chocolatey package is **unofficial** and **community-provided**. It is **not** published or maintained by Aircall.
+It may **lag behind** Aircall's officially released desktop versions.
+
+## What this package does
+- Installs the Aircall Workspace desktop application for Windows.
+- Downloads the installer from Aircall's official download endpoint:
+  https://electron.aircall.io/download/windows_64?appType=aircall-workspace&platform=winMsi
+
+## Support / expectations
+For Aircall product support and official release notes, please refer to Aircall's official channels.
+For issues with this Chocolatey package (install/uninstall scripts, packaging, version lag), please use the package issue tracker linked in this nuspec.
+]]></description>
+  </metadata>
+  <files>
+    <file src="tools\chocolateyInstall.ps1" target="tools" />
+    <file src="tools\chocolateyUninstall.ps1" target="tools" />
+  </files>
+</package>
