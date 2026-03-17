@@ -6,7 +6,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>aircall-workspace</id>
-    <version>1.12.10</version>
+    <version>1.13.0</version>
 
     <title>Aircall Workspace (Install) - Unofficial (Community)</title>
 

@@ -14,7 +14,7 @@ $packageArgs = @{
 
   softwareName  = 'Aircall Workspace'
 
-  checksum      = 'C93B77E66DB8E53030E643D60F17F39D51FAABC8AC4B1E7FDD76796C6037C7F9'
+  checksum      = '9811DA34ED563693BE7C4DCFBA28F461D45976BCD4276DA3B18B6FA6F365C9C7'
   checksumType  = 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`"" # ALLUSERS=1 DISABLEDESKTOPSHORTCUT=1 ADDDESKTOPICON=0 ADDSTARTMENU=0
