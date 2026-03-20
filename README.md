@@ -6,8 +6,7 @@ It may lag behind official releases.
 
 ## Installer source
 
-The installer is downloaded directly from Aircall:
-https://electron.aircall.io/download/windows_64?appType=aircall-workspace&platform=winMsi
+The installer is downloaded directly from Aircall.
 
 ## Support
 

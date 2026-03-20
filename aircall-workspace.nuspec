@@ -6,7 +6,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>aircall-workspace</id>
-    <version>1.13.0</version>
+    <version>1.13.5</version>
 
     <title>Aircall Workspace (Install) - Unofficial (Community)</title>
 
@@ -32,8 +32,7 @@ It may **lag behind** Aircall's officially released desktop versions.
 
 ## What this package does
 - Installs the Aircall Workspace desktop application for Windows.
-- Downloads the installer from Aircall's official download endpoint:
-  https://electron.aircall.io/download/windows_64?appType=aircall-workspace&platform=winMsi
+- Downloads the installer from Aircall's official download endpoint.
 
 ## Support / expectations
 For Aircall product support and official release notes, please refer to Aircall's official channels.
