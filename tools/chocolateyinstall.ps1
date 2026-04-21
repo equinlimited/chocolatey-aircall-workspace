@@ -2,7 +2,7 @@
 
 $packageName = $env:ChocolateyPackageName
 
-$url = 'https://download-electron.aircall.io/aircall-workspace/Aircall-Workspace-1.13.5-x64.msi'
+$url = 'https://download-electron.aircall.io/aircall-workspace/Aircall-Workspace-1.13.10-x64.msi'
 
 Write-Host "NOTE: This is an UNOFFICIAL, community-maintained Chocolatey package for Aircall Workspace."
 Write-Host "It is not maintained or endorsed by Aircall and may lag behind official releases."
@@ -14,7 +14,7 @@ $packageArgs = @{
 
   softwareName  = 'Aircall Workspace'
 
-  checksum      = 'EAC013BD4B48305040FA68892994FF811C583AA1C1DC52DF0168832348F5AC68'
+  checksum      = '073A7B6F5198F60701F3260D24B9D4C4F952B1F9F5BEA0DCC16B93C6B1DEA12C'
   checksumType  = 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`"" # ALLUSERS=1 DISABLEDESKTOPSHORTCUT=1 ADDDESKTOPICON=0 ADDSTARTMENU=0

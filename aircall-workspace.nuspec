@@ -6,7 +6,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>aircall-workspace</id>
-    <version>1.13.5</version>
+    <version>1.13.10</version>
 
     <title>Aircall Workspace (Install) - Unofficial (Community)</title>
 
@@ -22,9 +22,16 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
 
     <packageSourceUrl>https://github.com/equinlimited/chocolatey-aircall-workspace</packageSourceUrl>
+    <iconUrl>https://aircall.io/apple-touch-icon.png</iconUrl>
 
     <tags>aircall unofficial community customer-communication voip</tags>
     <summary>Unofficial, community-maintained Chocolatey package for the Aircall Workspace desktop app (may lag official releases).</summary>
+    <releaseNotes><![CDATA[
+  ### Aircall Workspace 1.13.10
+
+  - Updated package to Aircall Workspace version 1.13.10.
+  - Official Aircall release notes: https://support.aircall.io/en-gb/sections/29441424037405
+  ]]></releaseNotes>
     <description><![CDATA[
 ## Unofficial / Community package (not maintained by Aircall)
 This Chocolatey package is **unofficial** and **community-provided**. It is **not** published or maintained by Aircall.
